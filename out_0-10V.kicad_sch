@@ -5379,6 +5379,16 @@
 		)
 		(uuid "94dd2355-9ffc-47a0-9f1f-c9a98e3c0a28")
 	)
+	(polyline
+		(pts
+			(xy 26.924 105.664) (xy 42.926 105.664)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "965b4200-8c56-46ac-b80f-7e5222c48040")
+	)
 	(wire
 		(pts
 			(xy 66.04 57.15) (xy 50.8 57.15)
@@ -5498,6 +5508,16 @@
 			(type default)
 		)
 		(uuid "aa1b5cf0-0ca7-4740-8543-f2a495bf11a9")
+	)
+	(polyline
+		(pts
+			(xy 42.926 105.664) (xy 48.514 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa546adc-ef4c-4314-8385-3f7746d9b237")
 	)
 	(wire
 		(pts
@@ -5999,6 +6019,25 @@
 		)
 		(uuid "ffb98194-ef14-4c6f-89e9-26e2b1b6314a")
 	)
+	(text_box "Zasilanie = 12V -> JP1 2-3\nZasilanie > 12V -> JP1 1-2"
+		(exclude_from_sim no)
+		(at 59.182 75.438 0)
+		(size 32.004 6.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "519bf444-9919-401d-b533-ee9261af4841")
+	)
 	(text_box "DAC=100 -> 0,12V"
 		(exclude_from_sim no)
 		(at 147.955 157.48 0)
@@ -6017,6 +6056,16 @@
 			(justify left top)
 		)
 		(uuid "e424129c-d117-4286-81a6-20f9c352b15a")
+	)
+	(text "Zmiana na 1K"
+		(exclude_from_sim no)
+		(at 35.306 104.394 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "39bd84a4-e801-443b-abe0-6ef7cf243f57")
 	)
 	(label "IO35"
 		(at 60.96 59.69 180)

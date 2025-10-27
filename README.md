@@ -32,7 +32,7 @@ You can choose pull-up resistors from 1K to 10K.
 Connections:   
 SDA -> IO21   
 SCL -> IO22   
-I implemented it like this:
+I implemented it like this:   
 <picture><img src="img/pullUp.png" style="border: 4px solid grey"></picture>  
 You can do this on any slot.
 
